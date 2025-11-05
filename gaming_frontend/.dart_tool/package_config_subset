@@ -18,6 +18,10 @@ collection
 3.4
 file:///home/kavia/.pub-cache/hosted/pub.dev/collection-1.19.1/
 file:///home/kavia/.pub-cache/hosted/pub.dev/collection-1.19.1/lib/
+crypto
+3.4
+file:///home/kavia/.pub-cache/hosted/pub.dev/crypto-3.0.7/
+file:///home/kavia/.pub-cache/hosted/pub.dev/crypto-3.0.7/lib/
 cupertino_icons
 3.1
 file:///home/kavia/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8/
@@ -210,6 +214,14 @@ web
 3.4
 file:///home/kavia/.pub-cache/hosted/pub.dev/web-1.1.1/
 file:///home/kavia/.pub-cache/hosted/pub.dev/web-1.1.1/lib/
+web_socket
+3.4
+file:///home/kavia/.pub-cache/hosted/pub.dev/web_socket-1.0.1/
+file:///home/kavia/.pub-cache/hosted/pub.dev/web_socket-1.0.1/lib/
+web_socket_channel
+3.3
+file:///home/kavia/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.3/
+file:///home/kavia/.pub-cache/hosted/pub.dev/web_socket_channel-3.0.3/lib/
 xdg_directories
 3.3
 file:///home/kavia/.pub-cache/hosted/pub.dev/xdg_directories-1.1.0/

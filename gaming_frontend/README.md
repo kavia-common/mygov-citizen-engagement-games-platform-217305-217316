@@ -2,6 +2,17 @@
 
 A new Flutter project.
 
+Environment
+-----------
+
+Create a .env file (already referenced in pubspec assets) with:
+
+BACKEND_BASE_URL=https://your-backend-host
+# Optional, will be inferred from BACKEND_BASE_URL if not set
+WS_PROTOCOL=wss  # or ws
+
+The WebSocket client will connect to WS_PROTOCOL://<BACKEND_BASE_URL host>/ws/leaderboard
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
