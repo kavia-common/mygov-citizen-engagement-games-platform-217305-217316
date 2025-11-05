@@ -1,0 +1,3 @@
+# Marker file to help CI/tools identify the Flutter project root in a multi-container repo.
+# This file is safe to keep under version control.
+# The presence of this file indicates that the current directory is a Flutter application/package root.
