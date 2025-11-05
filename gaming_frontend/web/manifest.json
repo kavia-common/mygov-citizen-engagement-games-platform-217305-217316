@@ -1,0 +1,10 @@
+{
+  "name": "MyGov Games",
+  "short_name": "MyGov Games",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "description": "Gaming platform for MyGov citizen engagement.",
+  "icons": []
+}

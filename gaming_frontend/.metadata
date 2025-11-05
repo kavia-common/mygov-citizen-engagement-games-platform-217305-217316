@@ -1,15 +1,19 @@
 # This file tracks properties of this Flutter project.
-# It is used by some tooling to determine the project root.
+# It helps Flutter tools to consistently identify the project root.
+
 version:
-  revision: "generated-by-ci"
-  channel: "stable"
+  revision: stable
+  channel: stable
+
 project_type: app
+
 migration:
   platforms:
     - android
-    - ios
     - web
+    - ios
     - linux
     - macos
     - windows
-  unmanaged_files: []
+
+# Generated/maintained manually to aid CI in discovering the Flutter project root.
