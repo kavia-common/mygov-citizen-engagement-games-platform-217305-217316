@@ -3,16 +3,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:gaming_frontend/main.dart';
 
 void main() {
-  testWidgets('App generation message displayed', (WidgetTester tester) async {
+  testWidgets('App renders HomeShell with top bar title', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
+    // Allow any animations/layout
+    await tester.pumpAndSettle();
 
-    expect(find.text('gaming_frontend App is being generated...'), findsOneWidget);
-    expect(find.byType(CircularProgressIndicator), findsOneWidget);
-  });
-
-  testWidgets('App bar has correct title', (WidgetTester tester) async {
-    await tester.pumpWidget(const MyApp());
-
-    expect(find.text('gaming_frontend'), findsOneWidget);
+    expect(find.text('MyGov Games'), findsOneWidget);
+    // Navigation rail should exist
+    expect(find.byType(NavigationRail), findsOneWidget);
   });
 }
